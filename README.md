@@ -37,12 +37,17 @@
 
 ## My GitHubs Stats 📊
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; flex-direction: row; justify-content: center; gap: 20px;">
 
-  <img alt="clch2409 stats" src="https://github-readme-stats.vercel.app/api?username=clch2409&theme=blueberry&show_icons=true&hide_border=false&count_private=true" />
-  <img alt="clch2409 stats" src="https://github-readme-streak-stats.herokuapp.com/?user=clch2409&theme=blueberry&hide_border=false" />
-  <img alt="clch2409 stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=clch2409&theme=blueberry&show_icons=true&hide_border=false&layout=compact" />
-
+  <p>
+    <img alt="clch2409 stats" src="https://github-readme-stats.vercel.app/api?username=clch2409&theme=blueberry&show_icons=true&hide_border=false&count_private=true" />
+  </p>
+  <p>
+    <img alt="clch2409 stats" src="https://github-readme-streak-stats.herokuapp.com/?user=clch2409&theme=blueberry&hide_border=false" />
+  </p>
+  <p>
+    <img alt="clch2409 stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=clch2409&theme=blueberry&show_icons=true&hide_border=false&layout=compact" />
+  </p>
 </div>
 
 ## My Codewars Stats 🥷
