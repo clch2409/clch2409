@@ -1,4 +1,5 @@
 <h1 align="center">Hi, I'm César 👋 🇻🇪</h1>
+<br>
 
 ## About me
 
@@ -7,6 +8,7 @@
 * Planing to be a Web Developer 💻🤓
 * Playing videogames is my real passion 🎮
 * Love reading horror novels 🧟
+<br>
 
 ## Technologies that I'm using
 
@@ -22,11 +24,32 @@
   <img alt="Static Badge" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
   
 </p>
+<br>
 
-## What I'm learning
+## What I'm learning 🧠
 
 <p align="center">
   <img alt="Static Badge" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
   <img alt="Static Badge" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"> 
+  <br/>
 </p>
+<br>
+
+## My GitHubs Stats 📊
+
+<div style="display: flex; justify-content: center;">
+
+  <img alt="clch2409 stats" src="https://github-readme-stats.vercel.app/api?username=clch2409&theme=blueberry&show_icons=true&hide_border=false&count_private=true" />
+  <img alt="clch2409 stats" src="https://github-readme-streak-stats.herokuapp.com/?user=clch2409&theme=blueberry&hide_border=false" />
+  <img alt="clch2409 stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=clch2409&theme=blueberry&show_icons=true&hide_border=false&layout=compact" />
+
+</div>
+
+## My Codewars Stats 🥷
+
+<div style="display: flex; justify-content: center;">
+
+  <img alt="clch2409 stats" src="https://github.r2v.ch/codewars?user=clch2409&stroke=%2327548A&theme=gradient&hide_clan=true&top_languages=true" />
+
+</div>
 
