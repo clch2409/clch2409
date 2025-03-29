@@ -1,0 +1,27 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Se ejecuta diariamente a medianoche UTC
+  workflow_dispatch: # Permite ejecución manual
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update README with latest stats
+        run: |
+          STATS_URL="https://github-readme-stats.vercel.app/api?username=clch2409&theme=blueberry&show_icons=true&hide_border=false&count_private=true"
+          sed -i "s|!\[.*\](https://github-readme-stats.vercel.app/api?username=[^)]*)|![]("$STATS_URL")|g" README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "cesarlch2409@gmail.com"
+          git add README.md
+          git commit -m "Update GitHub Stats in README" || echo "No changes to commit"
+          git push
